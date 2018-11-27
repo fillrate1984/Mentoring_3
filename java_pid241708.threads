@@ -1,0 +1,123 @@
+Thread 0x80d17de8
+  at java.lang.OutOfMemoryError.<init>()V (OutOfMemoryError.java:48)
+  at jdk.internal.misc.Unsafe.allocateUninitializedArray0(Ljava/lang/Class;I)Ljava/lang/Object; (Unsafe.java:1276)
+  at jdk.internal.misc.Unsafe.allocateUninitializedArray(Ljava/lang/Class;I)Ljava/lang/Object; (Unsafe.java:1269)
+  at java.lang.invoke.StringConcatFactory$MethodHandleInlineCopyStrategy.newArray(IB)[B (StringConcatFactory.java:1627)
+  at java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Ljava/lang/Object;II)Ljava/lang/Object; (Unknown Source)
+  at java.lang.invoke.LambdaForm$MH.invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (Unknown Source)
+  at java.lang.invoke.LambdaForm$MH.linkToTargetMethod(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (Unknown Source)
+  at com.App.manyConcatenations()V (App.java:41)
+  at com.App.main([Ljava/lang/String;)V (App.java:10)
+
+  locals:
+    objectId=0x80d17b90, line=1
+    objectId=0x80d17ba0, line=1
+    objectId=0x80d17b90, line=2
+    objectId=0x80d17ba0, line=2
+    objectId=0x80d17c10, line=4
+    objectId=0x80d17c30, line=4
+    objectId=0x80d17c60, line=5
+    objectId=0x80d17cb0, line=5
+    objectId=0x80d17cb0, line=5
+    objectId=0x80d17cc8, line=5
+    objectId=0x80d17cb0, line=5
+    objectId=0x80d17cc8, line=5
+    objectId=0x80d17cb0, line=5
+    objectId=0x80d17ce8, line=5
+    objectId=0x80d17d08, line=5
+    objectId=0x80d17ce8, line=5
+    objectId=0x80d17d08, line=5
+    objectId=0x80d17c10, line=5
+    objectId=0x80d17cb0, line=6
+    objectId=0x80d17cb0, line=6
+    objectId=0x80d17c60, line=6
+    objectId=0x80d17cb0, line=7
+    objectId=0x80d17d28, line=8
+
+Thread 0x80d17f60
+  at java.lang.ref.Reference.waitForReferencePendingList()V (Native Method)
+  at java.lang.ref.Reference.processPendingReferences()V (Reference.java:174)
+  at java.lang.ref.Reference.access$000()V (Reference.java:44)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:138)
+
+  locals:
+    objectId=0x80d17f60, line=3
+
+Thread 0x80d181c0
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:151)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:172)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:216)
+
+  locals:
+    objectId=0x80d18440, line=1
+    objectId=0x80d18340, line=1
+    objectId=0x80d18440, line=2
+    objectId=0x80d181c0, line=3
+    objectId=0x80d184d0, line=3
+
+Thread 0x80d184e0
+
+  locals:
+
+Thread 0x80d18658
+
+  locals:
+
+Thread 0x80d18c88
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:151)
+  at jdk.internal.ref.CleanerImpl.run()V (CleanerImpl.java:148)
+  at java.lang.Thread.run()V (Thread.java:844)
+  at jdk.internal.misc.InnocuousThread.run()V (InnocuousThread.java:134)
+
+  locals:
+    objectId=0x80d18e18, line=1
+    objectId=0x80d18e08, line=1
+    objectId=0x80d18eb0, line=2
+    objectId=0x80d18c88, line=2
+    objectId=0x80d18c88, line=2
+    objectId=0x80d18c88, line=3
+    objectId=0x80d18c88, line=4
+
+Thread 0x80d19008
+  at java.net.SocketInputStream.socketRead0(Ljava/io/FileDescriptor;[BIII)I (Native Method)
+  at java.net.SocketInputStream.socketRead(Ljava/io/FileDescriptor;[BIII)I (SocketInputStream.java:116)
+  at java.net.SocketInputStream.read([BIII)I (SocketInputStream.java:171)
+  at java.net.SocketInputStream.read([BII)I (SocketInputStream.java:141)
+  at sun.nio.cs.StreamDecoder.readBytes()I (StreamDecoder.java:284)
+  at sun.nio.cs.StreamDecoder.implRead([CII)I (StreamDecoder.java:326)
+  at sun.nio.cs.StreamDecoder.read([CII)I (StreamDecoder.java:178)
+  at java.io.InputStreamReader.read([CII)I (InputStreamReader.java:185)
+  at java.io.BufferedReader.fill()V (BufferedReader.java:161)
+  at java.io.BufferedReader.readLine(Z)Ljava/lang/String; (BufferedReader.java:326)
+  at java.io.BufferedReader.readLine()Ljava/lang/String; (BufferedReader.java:392)
+  at com.intellij.rt.execution.application.AppMainV2$1.run()V (AppMainV2.java:64)
+
+  locals:
+    objectId=0x80d19188, line=1
+    objectId=0x80d191c0, line=1
+    objectId=0x80d191e8, line=1
+    objectId=0x80d19188, line=2
+    objectId=0x80d191e8, line=2
+    objectId=0x80d191c0, line=2
+    objectId=0x80d19188, line=3
+    objectId=0x80d191e8, line=3
+    objectId=0x80d1b1f8, line=4
+    objectId=0x80d1b1f8, line=5
+    objectId=0x80d1b228, line=5
+    objectId=0x80d1f238, line=5
+    objectId=0x80d1f268, line=5
+    objectId=0x80d1b1f8, line=6
+    objectId=0x80d1b228, line=6
+    objectId=0x80d1f280, line=6
+    objectId=0x80d1f280, line=7
+    objectId=0x80d1b228, line=7
+    objectId=0x80d1f298, line=8
+    objectId=0x80d1f298, line=9
+    objectId=0x80d1f280, line=9
+    objectId=0x80d1f298, line=10
+    objectId=0x80d19008, line=11
+    objectId=0x80d1f2c8, line=11
+    objectId=0x80d1f298, line=11
+
